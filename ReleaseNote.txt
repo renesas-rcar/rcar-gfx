@@ -1,0 +1,29 @@
+
+R8A779H BXS-4-64 OpenGL ES Library for Linux Version 0.5.0
+
+=================================================================================
+
+1. TARGET SoC;
+
+   R8A779H0
+
+
+2. ENVIRONMENT
+
+   Target Board   : R-Car V4M System Evaluation Board GrayHawk
+   BSP            : R-Car V4M Yocto recipe package included in R-Car SDK
+
+3. Change History
+   [v0.5.0]
+   - Alpha release.
+
+4. Restriction
+   [v0.5.0]
+   - Graphics module on R-Car V4M will be supported when R-Car SDK is built again.
+   - User have to insert graphics module into the kernel after each time board reset.
+      $ insmod /lib/modules/5.10.147-yocto-standard/extra/pvrsrvkm.ko
+   - PVR_K Error message will by printed out if use ASTC4x4, ASTC6x6 and ASTC8x8 texture format.
+   - Performance doesn't guagrantee in this release version.
+
+
+RELEASENOTE.TXT / Jan 2024

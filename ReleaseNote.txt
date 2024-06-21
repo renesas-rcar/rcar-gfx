@@ -1,0 +1,31 @@
+
+R8A779H BXS-4-64 OpenGL ES Library for Linux Version 1.0.0
+
+=================================================================================
+
+1. TARGET SoC;
+
+   R8A779H0
+
+
+2. ENVIRONMENT
+
+   Target Board   : R-Car V4M System Evaluation Board GrayHawk
+   BSP            : R-Car V4M Yocto recipe package included in R-Car SDK
+
+3. Change History
+   [v1.0.0]
+   - Fix PVR_K Error message on ASTC4x4, ASTC6x6 and ASTC8x8 texture format.
+
+   [v0.5.0]
+   - Alpha release.
+
+4. Restriction
+   [v1.0.0]
+   - None.
+
+   [v0.5.0]
+   - PVR_K Error message will by printed out if use ASTC4x4, ASTC6x6 and ASTC8x8 texture format.
+
+
+RELEASENOTE.TXT / Jul 2024
